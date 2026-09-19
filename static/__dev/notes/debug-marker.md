@@ -1,0 +1,1 @@
+Current page is being repaired after a location-state edit introduced duplicate declarations. Keep the location flow explicit and bounded; do not leave scanning state active when location/search fails.

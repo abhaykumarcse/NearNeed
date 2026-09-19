@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500;10..48,600;10..48,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+:root {
+  /* Overlay layers */
+  --z-overlay: 400;
+
+  --z-spotlight: 1000; /* Tutorial spotlights/guided help */
+
+  /* System layers */
+  --z-critical: 2000; /* Critical system notifications */
+
+  /* spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+}
+
+:root {
+  --background: hsl(220, 24%, 7%);
+  --foreground: hsl(210, 30%, 96%);
+  --surface: hsl(220, 22%, 10%);
+  --surface-foreground: hsl(210, 25%, 95%);
+  --sidebar: hsl(220, 20%, 9%);
+  --sidebar-foreground: hsl(210, 25%, 95%);
+  --card: hsl(219, 20%, 12%);
+  --card-foreground: hsl(210, 30%, 96%);
+  --popup: hsl(220, 24%, 13%);
+  --popup-foreground: hsl(210, 30%, 96%);
+  --primary: hsl(186, 96%, 64%);
+  --primary-foreground: hsl(220, 30%, 8%);
+  --secondary: hsl(220, 16%, 17%);
+  --secondary-foreground: hsl(210, 24%, 92%);
+  --accent: hsl(186, 96%, 64%);
+  --accent-foreground: hsl(220, 30%, 8%);
+  --muted: hsl(220, 15%, 16%);
+  --muted-foreground: hsl(215, 13%, 68%);
+  --success: hsl(154, 62%, 52%);
+  --success-foreground: hsl(155, 28%, 9%);
+  --error: hsl(0, 72%, 62%);
+  --error-foreground: hsl(0, 30%, 10%);
+  --warning: hsl(40, 94%, 63%);
+  --warning-foreground: hsl(40, 30%, 10%);
+  --info: hsl(199, 85%, 62%);
+  --info-foreground: hsl(200, 30%, 8%);
+  --info-hover: hsl(199, 85%, 68%);
+  --info-active: hsl(199, 85%, 56%);
+  --border: hsl(220, 15%, 24%);
+  --font-family-base: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-family-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-family-monospace: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-family-cursive: cursive;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.24);
+  --shadow-md: 0 18px 48px rgba(0, 0, 0, 0.34);
+  --shadow-lg: 0 28px 80px rgba(0, 0, 0, 0.48);
+  --shadow-focus: 0 0 0 3px hsla(186, 96%, 64%, 0.22);
+  --radius-sm: 0.6rem;
+  --radius: 0.9rem;
+  --radius-md: 1.1rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 999px;
+  --animation-duration-fast: 160ms;
+  --animation-duration-normal: 300ms;
+  --animation-duration-slow: 700ms;
+  --chart-color-1: hsl(186, 96%, 64%);
+  --chart-color-2: hsl(199, 85%, 62%);
+  --chart-color-3: hsl(154, 62%, 52%);
+  --chart-color-4: hsl(40, 94%, 63%);
+  --chart-color-5: hsl(0, 72%, 62%);
+}
+
+.dark {
+  --background: hsl(220, 24%, 7%);
+  --foreground: hsl(210, 30%, 96%);
+  --surface: hsl(220, 22%, 10%);
+  --surface-foreground: hsl(210, 25%, 95%);
+  --sidebar: hsl(220, 20%, 9%);
+  --sidebar-foreground: hsl(210, 25%, 95%);
+  --card: hsl(219, 20%, 12%);
+  --card-foreground: hsl(210, 30%, 96%);
+  --popup: hsl(220, 24%, 13%);
+  --popup-foreground: hsl(210, 30%, 96%);
+  --primary: hsl(186, 96%, 64%);
+  --primary-foreground: hsl(220, 30%, 8%);
+  --secondary: hsl(220, 16%, 17%);
+  --secondary-foreground: hsl(210, 24%, 92%);
+  --accent: hsl(186, 96%, 64%);
+  --accent-foreground: hsl(220, 30%, 8%);
+  --muted: hsl(220, 15%, 16%);
+  --muted-foreground: hsl(215, 13%, 68%);
+  --success: hsl(154, 62%, 52%);
+  --success-foreground: hsl(155, 28%, 9%);
+  --error: hsl(0, 72%, 62%);
+  --error-foreground: hsl(0, 30%, 10%);
+  --warning: hsl(40, 94%, 63%);
+  --warning-foreground: hsl(40, 30%, 10%);
+  --info: hsl(199, 85%, 62%);
+  --info-foreground: hsl(200, 30%, 8%);
+  --info-hover: hsl(199, 85%, 68%);
+  --info-active: hsl(199, 85%, 56%);
+  --border: hsl(220, 15%, 24%);
+}

@@ -1,0 +1,1 @@
+NearNeed must explicitly request browser geolocation and must never remain in an indefinite SCANNING state. Public-place fallback uses OpenStreetMap/Overpass for place-type searches and marks availability as unconfirmed. Provider inventory remains authoritative for item availability.
